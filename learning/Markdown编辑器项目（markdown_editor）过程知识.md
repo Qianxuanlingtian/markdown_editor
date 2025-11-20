@@ -121,7 +121,7 @@
 
 创建好虚拟环境的工作文件夹实例：
 
-![1](pic\1.png "创建好python虚拟开发环境的工作文件夹")
+![1](pic/1.png "创建好python虚拟开发环境的工作文件夹")
 
 ### 使用虚拟环境
 
@@ -215,11 +215,11 @@ $ git pull --all
 
 在vscode扩展商城安装PYQT Integration
 
-![3](pic\3.png)
+![3](pic/3.png)
 
 在该扩展设置中做以下设置（路径均为虚拟环境中的路径）：
 
-![4](pic\4.png)
+![4](pic/4.png)
 
 - Pyqt-integration › Pyrcc: Cmd
 
