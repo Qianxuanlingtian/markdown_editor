@@ -194,7 +194,7 @@ $ git pull --all
 虚拟环境下在终端中输入以下代码：
 
 ```shell
-> pip install "PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
+> pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ```
 
 
