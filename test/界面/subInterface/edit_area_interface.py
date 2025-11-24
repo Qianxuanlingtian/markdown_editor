@@ -17,7 +17,7 @@ class BannerWidget(QWidget):
         self.vboxLayout.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
 
-class HomeInterface(QWidget):
+class EditAreaInterface(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent=parent)
         self.banner = BannerWidget()
