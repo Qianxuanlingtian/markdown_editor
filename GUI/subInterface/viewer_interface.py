@@ -1,15 +1,22 @@
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
 from qfluentwidgets import VBoxLayout, DisplayLabel, ScrollArea, ComboBox, PushButton
 
+class BannerWidget(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent=parent)
+        self.setFixedHeight(336)
+
+        self.vboxLayout = QVBoxLayout(self)
+        self.viewLabel = QLabel('Test View', self)
+        self.banner = QPixmap('images/header1.png')
+        self.linkCardView = LinkCardView(self)
 
 class ViewerInterface(ScrollArea):
     def __init__(self, parent=None):
         super().__init__(parent=parent)
         self.setObjectName('viewerInterface')
-
-        # self.scrollArea1 = ScrollArea(self)
-        # self.scrollArea2 = ScrollArea(self)
 
         self.verticalLayout = VBoxLayout(self)
 
